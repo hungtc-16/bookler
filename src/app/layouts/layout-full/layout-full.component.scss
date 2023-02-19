@@ -1,0 +1,26 @@
+.wapper-layout-full{
+  background-image: url("/assets/images/Big.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding: 34px 59px;
+  height: 363px;
+  display: flex;
+  justify-content: space-between;
+  .inner-layout{
+    flex: 1;
+    margin-left: 60px;
+  }
+  .main{
+    margin-top: 76px;
+      width: 100%;
+      display: flex;
+      .inner-sider-bar{
+        position: absolute;
+        top: 34px;
+      }
+  }
+  .content{
+    width: 100%;
+  }
+}

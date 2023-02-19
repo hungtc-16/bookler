@@ -1,0 +1,30 @@
+.navigation{
+  display: flex;
+  .item{
+    width: 68px;
+    height: 73px;
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 7px;
+
+    &.active{
+      background-color: #0A6ADA;
+      gap: 9px;
+    }
+    .name span{
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      letter-spacing: 0.002em;
+      text-transform: uppercase;
+    }
+  }
+}
